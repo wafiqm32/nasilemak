@@ -4,12 +4,15 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
+    
       <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    
+  
+      <img src="./assets/profile.png" alt="Vue logo" class="w-full rounded-xl flex items-center justify-center" />
+      
+
+    
+    <p class="sm:text-xl md:text-6xl lg:text-8xl text-2xl">HELLO SIR BAHIT MY NAME IS WAFIQ MY STUDENT IS 22FTT1516. I AM 19 YEARS OLD AND I CAN CODE</p>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
