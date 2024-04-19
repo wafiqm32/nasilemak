@@ -3,19 +3,17 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
-    
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    
-  
-      <img src="./assets/profile.png" alt="Vue logo" class="w-full rounded-xl flex items-center justify-center" />
-      
+    <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+      <img src="./assets/profile.png" alt="Vue logo" class="w-full md:w-auto rounded-xl" />
+     
 
     
-    <p class="sm:text-xl md:text-6xl lg:text-8xl text-2xl">HELLO SIR BAHIT MY NAME IS WAFIQ MY STUDENT IS 22FTT1516. I AM 19 YEARS OLD AND I CAN CODE</p>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
+    </div>
+     <p class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">HELLO SIR BAHIT MY NAME IS WAFIQ MY STUDENT IS 22FTT1516. I AM 19 YEARS OLD AND I CAN CODE</p>
+     <p class="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl">PLEASE EAT YOUR PILLS AND DOWNLOAD PILLEASE</p>
+     <button>I am a button, i dont do anything</button>
+       <img src="./assets/pilleaten.png" alt="Vue logo" class="w-full md:w-auto rounded-xl" />     <img src="./assets/pilleaten.png" alt="Vue logo" class="w-full md:w-auto rounded-xl" />
+  </template>
 
 <style scoped>
 .logo {
