@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
     <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
       <img src="./assets/profile.png" alt="Vue logo" class="w-full md:w-auto rounded-xl" />
-     
+           <img src="./assets/friendoptimised.jpg" alt="Vue logo" class="w-40 md:w-90 rounded-xl" />
 
     
     </div>
